@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Montserrat:wght@400;700&family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+
+:root{
+    --primary-color:#0d9488;
+    --secondary-color:#ecfdf5;
+}
+.header{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 1.2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#inputTxt {
+    display: block;
+    max-width: 30rem;
+    width: 80%;
+    margin: 0 auto;
+    height: 10vh;
+    padding:1rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    border: 2px solid var(--secondary-color) ;
+    outline: 2px solid var(--primary-color);
+}
+#btn-translate{
+
+    padding: 20px 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px #09b79a;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    cursor: pointer;
+
+}
+
+#output{
+    border: 2px solid;
+    height: 15vh;
+    max-width: 30rem;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
